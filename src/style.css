@@ -15,7 +15,7 @@
 
   header {
     display: flex;
-    height: 80px;
+    height: 70px;
     width: 100%;
     align-items: center;
     background-color: var(--deep-blue);
@@ -48,6 +48,28 @@
     color: var(--font-white);
     text-align: center;
     font-family: var(--font-lato);
+    padding: 15px 0 100px 0;
+  }
+
+  #portfolio {
+    background-color: #ffffff;
+    padding-top: 60px;
+    text-align: center;
+    font-family: var(--font-monserrat);
+    font-size: 30px;
+  }
+
+  div {
+    /* display: flex; */
+    /* justify-items: center;
+    flex-wrap: wrap; */
+    /* gap: 30px; */
+    margin: 0 150px 0 200px;
+  }
+
+  .images {
+    max-width: 320px;
+    margin: 10px;
   }
 
  footer {
@@ -58,13 +80,17 @@
 #worker {
   max-width: 220px;
   padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 #main-title {
   font-family: var(--font-monserrat);
-  font-size: 60px;
+  font-size: 65px;
+  padding-bottom: 20px;
 }
 
-#title-two {
+#start-text {
   font-family: var(--font-lato);
+  font-size: 25px;
+  padding-top: 15px;
 }
